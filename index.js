@@ -1,6 +1,6 @@
+const toggleTheme = document.getElementById('toggle-theme');
 const toggleIcon = document.getElementById('toggle-icon');
 const toggleText = document.getElementById('toggle-text');
-const toggleColors = document.getElementById('toggle-colors');
 
 const rootStyles = document.documentElement.style;
 
@@ -14,3 +14,4 @@ toggleTheme.addEventListener('click', () => {
         toggleText.textContent='Dark Mode'
     }
 })
+ 
