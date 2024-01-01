@@ -84,3 +84,17 @@ body.dark{
 .no-margin{
     margin: 0;
 }
+
+.main{
+
+    min-height: 500px;
+}
+
+.footer--home{
+
+    text-align: center;
+    height: 75px;
+    padding: 1.5em;
+    background-color: var(--bg-card-color);
+    transition: var(--transition);
+}
