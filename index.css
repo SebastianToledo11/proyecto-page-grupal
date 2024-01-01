@@ -69,16 +69,33 @@ body.dark{
     font-size: 0.8rem;
 }
 
+#img-nav {
+    min-height: 50vh;
+    background:url(assets/images/Example_of_project.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__h1{
+    margin: 0%;
+    text-align: center;
+    font-size: 3rem;
+    color: hsl(0, 0%, 15%);
+}
+
+.card__body{
+    min-height: 600px;
+}
+
 .card{
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
-}
-
-.card__image-container{
-    min-width: 320px;
-    border-radius: var(--border-radius);
-    overflow: hidden;
 }
 
 .no-margin{
@@ -86,12 +103,10 @@ body.dark{
 }
 
 .main{
-
     min-height: 500px;
 }
 
 .footer--home{
-
     text-align: center;
     height: 75px;
     padding: 1.5em;
