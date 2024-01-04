@@ -69,8 +69,13 @@ body.dark{
     font-size: 0.8rem;
 }
 
+.main{
+    min-height: 1800px;
+}
+
+
 #img-nav {
-    min-height: 50vh;
+    min-height: 45em;
     background:url(assets/images/Example_of_project.png) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
@@ -100,10 +105,6 @@ body.dark{
 
 .no-margin{
     margin: 0;
-}
-
-.main{
-    min-height: 500px;
 }
 
 .footer--home{
