@@ -1,0 +1,116 @@
+:root{
+    --text-color: hsl(0, 0%, 31%);
+    --bg-color: hsl(0, 0%, 75%);
+    --bg-card-color: hsl(0, 0%, 98%);
+    --border-radius:0.4em;
+    --transition:color 0.5s, background-color 0.5s ease-in-out;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: var(--transition);
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+body.dark{
+    --text-color: hsl(0, 0%, 83%);
+    --bg-color: hsl(0, 0%, 15%);
+    --bg-card-color: hsl(0, 0%, 20%);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: var(--bg-card-color);
+    transition: var(--transition);
+}
+
+.head--home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: hsl(0, 0%, 15%);;
+}
+
+.switches{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toggle-theme__icon{
+    margin-right: 0.5em;
+    width: 20px;
+}
+
+.toggle-theme__text{
+    font-size: 0.8rem;
+}
+
+.main{
+    min-height: 1800px;
+}
+
+
+#img-nav {
+    min-height: 45em;
+    background:url(assets/images/Example_of_project.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__h1{
+    margin: 0%;
+    text-align: center;
+    font-size: 3rem;
+    color: hsl(0, 0%, 15%);
+}
+
+.card__body{
+    min-height: 600px;
+}
+
+.card{
+    padding: 1em;
+    background-color: var(--bg-card-color);
+    border-radius: var(--border-radius);
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.footer--home{
+    text-align: center;
+    height: 75px;
+    padding: 1.5em;
+    background-color: var(--bg-card-color);
+    transition: var(--transition);
+}
